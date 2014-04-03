@@ -1,0 +1,92 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>MovilCar</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link href=	"js/jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+        <script src="js/jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript">
+            function MM_preloadImages() {
+                var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+                var i,j=d.MM_p.length,a = MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+                if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+            }
+        </script>
+	</head>
+	<body>
+    <div data-role="page" id="ayuda">
+      <div data-role="header">
+        <h1>AYUDA</h1>
+      </div>
+      <div data-role="content">
+        <div data-role="collapsible-set" id="ayuda">
+          <div data-role="collapsible" data-collapsed="true" data-theme="a">
+            <h3>ACERCA DE ESTE MANUAL</h3>
+            <p>Copyright ©2014 Cristian Camilo Orozco Escárraga.</p>
+            <p>Está guía está protegida por las leyes internacionales de derechos de autor.</p>
+            <p>No está permitido reproducir, distribuir, traducir o transmitir ninguna parte de esta guía de ninguna forma o por ningún medio, ya sea electrónico o mecánico, incluyendo fotocopiado, grabación o almacenamiento en cualquier sistema de almacenamiento y recuperación de información, sin el permiso previo de Cristian Camilo Orozco Escárraga.</p>
+          </div>
+          <div data-role="collapsible" data-collapsed="true" data-theme="a">
+            <h3>PARA COMENZAR</h3>
+            <div data-role="collapsible-set">
+              <div data-role="collapsible" data-collapsed="true">
+                <h3>Iniciar MóvilCar</h3>
+                <p>Para abrir la aplicación MóvilCar pulse el ícono en el escritorio del teléfono. Aparecerán tres botones:</p>
+                <ul>
+                  <li><strong>¿Qué es MóvilCar?:</strong> una pequeña descripción de lo que consiste la aplicación.</li>
+                  <li><strong>Login:</strong> permite acceder a la cuenta personal para obtener todos los servicios de la aplicación.</li>
+                  <li><strong>¿Eres nuevo? ¡Regístrate!:</strong> permite crear una nueva cuenta para acceder a la aplicación.</li>
+                </ul>
+              </div>
+              <div data-role="collapsible" data-collapsed="true">
+                <h3>Crear una nueva cuenta</h3>
+                <p>Proporciona un nombre de usuario y contraseña, todos sus datos personales además de los datos de su vehículo. Haga clic en el botón Crear Cuenta para continuar utilizando MóvilCar, o el botón Volver para ir a la pantalla inicial.</p>
+                <ul>
+                  <li>Ubíquese en la primera línea del formulario (de usuario). Verá un teclado virtual sobre la pantalla.</li>
+                  <li>Escriba el nombre de usuario que desee. A continuación, pulse el botón Siguiente para que se le muestre la siguiente línea del formulario (contraseña).</li>
+                  <li>Después de haber procedido a llenar todos los campos, MóvilCar mostrará el formulario completo.</li>
+                  <li>Si la información es la correcta, pulse en “Crear Cuenta” para crear la cuenta. Si no, ubíquese en la línea que desea cambiar.</li>
+                </ul>
+                <p>Después de crear la cuenta, se le pedirá que inicie la sesión. Sólo tiene que hacer esto una sola vez: desde entonces, el teléfono se registrará de forma automática. Tendrá que acceder nuevamente sólo en caso de:</p>
+                <ul>
+                  <li>El nombre de usuario que desea ya existe.</li>
+                  <li>Está utilizando el nombre de usuario y contraseña que ha creado en otro teléfono, y ha cometido un error al iniciar sesión. Luego verá el mensaje "Inicio de Sesión Incorrecto" y se le devolverá a la pantalla que muestra su nombre de usuario (y contraseña oculta) para que lo pueda cambiar. (Nota: para cambiar su nombre de usuario primero debe iniciar sesión en el sitio movilcar.com y cambiarlo allí, a continuación, actualizar en tu teléfono móvil).</li>
+                  <li>Otra persona con otro teléfono está conectada a su cuenta. En este caso, no recibirá el mensaje de error y su conexión a Internet seguirá encendiéndose y apagándose. (Le sugerimos no dar sus datos de acceso a sus amigos, ellos pueden crear sus propias cuentas).</li>
+                </ul>
+                <p>Una vez que tiene una cuenta con la que se ha registrado previamente, MóvilCar le llevará directamente a la pantalla principal (Perfil). Para ahorrar el consumo de batería, cierre MóvilCar cuando salga de su auto y reduzca al mínimo o apaga la pantalla cuando no la necesite.</p>
+              </div>
+            </div>
+          </div>
+          <div data-role="collapsible" data-collapsed="true" data-theme="a">
+            <h3>PERFIL</h3>
+            <p>Consta de cuatro botones principales:</p>
+            <ul>
+              <li><strong>Mis datos personales:</strong> se encuentran guardados los datos propios y los del vehículo necesarios para registrarse. Si se desea actualizar la información, basta con corregir los campos correspondientes y dar clic en Actualizar.</li>
+              <li><strong>Rutas:</strong> podrá observar su locación actual en el mapa, además de permitirle buscar lugares específicos y recorrer sus rutas de preferencia.</li>
+              <li><strong>Parqueaderos:</strong> podrá ver una lista y la dirección de los parqueaderos de la ciudad.</li>
+              <li><strong>Recordatorios</strong> permite guardar las fechas de vencimiento del vehículo y alerta cuando estas hayan caducado, además de que se puede guardar cualquier otra clase de recordatorio.</li>
+            </ul>
+          </div>
+          <div data-role="collapsible" data-collapsed="true" data-theme="a">
+            <h3>INFORMACIÓN GENERAL</h3>
+            <p>Consta de cuatro botones principales:</p>
+            <ul>
+              <li><strong>Compartir:</strong> al ingresar a este botón podrá acceder a sus redes sociales y compartir con sus amigos la información que desee.</li>
+              <li><strong>Ayuda:</strong> en este botón se encuentra este Manual de Usuario, con las distintas explicaciones.</li>
+            </ul>
+            <p>Si desea cambiar de cuenta, deberá cerrar sesión e iniciar con la nueva cuenta, tenga en cuenta que todo lo que haya guardado en la antigua cuenta no será observable en la nueva cuenta.</p>
+          </div>
+        </div>
+      </div>
+      <!--<p>&nbsp;</p>-->
+      <div data-role="navbar">
+        <ul>
+          <li><a href="compartir.html" data-icon="plus" data-role="button" data-theme="a" data-mini="true">COMPARTIR</a></li>
+          <li><a href="perfil.html" data-icon="back" data-role="button" data-theme="a" data-mini="true">VOLVER</a></li>
+          <li><a href="index.html" data-icon="home" data-role="button" data-theme="a" data-mini="true">CERRAR SESIÓN</a></li>
+        </ul>
+      </div>
+    </div>
+	</body>
+</html>

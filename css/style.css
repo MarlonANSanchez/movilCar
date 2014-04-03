@@ -1,0 +1,32 @@
+body,td,th {
+    font-size: medium;
+    color: #000000;
+    text-align: center;
+}
+
+body{
+	background-color: #FFFFFF;
+	color: #D0C091;
+	link: #F0F0F0;
+	text-align: center;
+}
+
+h1{
+	color: #D0C091;
+	font-size: xx-large;
+	font-family: 'AR JULIAN';
+}
+
+p{
+	text-align: justify;
+}
+
+#ayuda{
+	text-align: justify;
+}
+
+ul#direcciones li{
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin-bottom:10px;
+}

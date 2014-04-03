@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>MovilCar</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link href=	"js/jquery-mobile/jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+        <link href="js/SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
+        <script src="js/jquery-mobile/jquery-1.6.4.min.js" type="text/javascript"></script>
+        <script src="js/jquery-mobile/jquery.mobile-1.0.min.js" type="text/javascript">
+            function MM_preloadImages() { //v3.0
+                var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+                var i,j=d.MM_p.length,a = MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+                if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+            }
+        </script>
+	</head>
+	<body>
+        <div data-role="page" id="home">
+            <div data-role="header" data-theme="a">
+                <h1>MÓVILCAR</h1>
+            </div>
+            <div align="center"><img src="imagenes/fondo.gif" width="480" height="800"></div>
+            <div data-role="content">
+                <ul data-count-theme="a" data-role="listview" data-split-icon="radio-on" data-split-theme="b" data-theme="a" data-divider-theme="a">
+                    <li><a href="que-es.html"><img src="imagenes/movilcar.gif" width="138" height="139">¿QUÉ ES MÓVILCAR?</a></li>
+                    <li><a href="login.html"><img src="imagenes/login.gif" width="138" height="139">LOGIN</a></li>
+                    <li><a href="registro.html"><img src="imagenes/registro.gif" width="138" height="139">¿ERES NUEVO? ¡REGISTRATE!</a></li>
+                    <!--<li><img src="imagenes/registro.gif" width="138" height="139">SALIR</li>-->
+                </ul>
+            </div>
+            <div data-role="footer" data-theme="a">
+            	<h1>FÁCIL Y RÁPIDO</h1>
+            </div>
+		</div>
+	</body>
+</html>
